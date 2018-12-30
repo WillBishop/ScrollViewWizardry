@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		EDDD139221D9854500BA31F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD139121D9854500BA31F4 /* AppDelegate.swift */; };
-		EDDD139421D9854500BA31F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD139321D9854500BA31F4 /* ViewController.swift */; };
 		EDDD139721D9854500BA31F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDD139521D9854500BA31F4 /* Main.storyboard */; };
 		EDDD139921D9854500BA31F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDD139821D9854500BA31F4 /* Assets.xcassets */; };
 		EDDD139C21D9854500BA31F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDD139A21D9854500BA31F4 /* LaunchScreen.storyboard */; };
+		EDDD13A621D9856200BA31F4 /* BlueBackground.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13A321D9856200BA31F4 /* BlueBackground.xib */; };
+		EDDD13A721D9856200BA31F4 /* WhiteBackground.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13A421D9856200BA31F4 /* WhiteBackground.xib */; };
+		EDDD13A821D9856200BA31F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13A521D9856200BA31F4 /* ViewController.swift */; };
+		EDDD13AA21D9858D00BA31F4 /* WhiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13A921D9858D00BA31F4 /* WhiteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDDD138E21D9854500BA31F4 /* ScrollViewWizardry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewWizardry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDD139121D9854500BA31F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDDD139321D9854500BA31F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDDD139621D9854500BA31F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDDD139821D9854500BA31F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDD139B21D9854500BA31F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDDD139D21D9854500BA31F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDD13A321D9856200BA31F4 /* BlueBackground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueBackground.xib; sourceTree = "<group>"; };
+		EDDD13A421D9856200BA31F4 /* WhiteBackground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhiteBackground.xib; sourceTree = "<group>"; };
+		EDDD13A521D9856200BA31F4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDDD13A921D9858D00BA31F4 /* WhiteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		EDDD139021D9854500BA31F4 /* ScrollViewWizardry */ = {
 			isa = PBXGroup;
 			children = (
+				EDDD13A921D9858D00BA31F4 /* WhiteView.swift */,
+				EDDD13A321D9856200BA31F4 /* BlueBackground.xib */,
+				EDDD13A421D9856200BA31F4 /* WhiteBackground.xib */,
+				EDDD13A521D9856200BA31F4 /* ViewController.swift */,
 				EDDD139121D9854500BA31F4 /* AppDelegate.swift */,
-				EDDD139321D9854500BA31F4 /* ViewController.swift */,
 				EDDD139521D9854500BA31F4 /* Main.storyboard */,
 				EDDD139821D9854500BA31F4 /* Assets.xcassets */,
 				EDDD139A21D9854500BA31F4 /* LaunchScreen.storyboard */,
@@ -125,6 +134,8 @@
 				EDDD139C21D9854500BA31F4 /* LaunchScreen.storyboard in Resources */,
 				EDDD139921D9854500BA31F4 /* Assets.xcassets in Resources */,
 				EDDD139721D9854500BA31F4 /* Main.storyboard in Resources */,
+				EDDD13A621D9856200BA31F4 /* BlueBackground.xib in Resources */,
+				EDDD13A721D9856200BA31F4 /* WhiteBackground.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDDD139421D9854500BA31F4 /* ViewController.swift in Sources */,
 				EDDD139221D9854500BA31F4 /* AppDelegate.swift in Sources */,
+				EDDD13A821D9856200BA31F4 /* ViewController.swift in Sources */,
+				EDDD13AA21D9858D00BA31F4 /* WhiteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8D2NQ6572;
 				INFOPLIST_FILE = ScrollViewWizardry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8D2NQ6572;
 				INFOPLIST_FILE = ScrollViewWizardry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
